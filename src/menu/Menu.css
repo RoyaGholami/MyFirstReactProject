@@ -1,0 +1,27 @@
+.nav-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    vertical-align: middle;
+    padding: 5px 10px;
+    background-color: #e2e0e0;
+}
+
+.site-logo img {
+    height: 30px;
+}
+
+.nav-bar nav a {
+    margin: 0 10px;
+    color: #070707;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.nav-bar nav a:hover {
+    background-color: #477cef91
+}
