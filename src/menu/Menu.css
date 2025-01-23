@@ -25,3 +25,8 @@
 .nav-bar nav a:hover {
     background-color: #477cef91
 }
+
+.nav-bar nav a.active {
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+}

@@ -1,5 +1,6 @@
 import './Menu.css';
 import dreamLogo from './../assets/download.jpg'
+import { NavLink } from 'react-router-dom';
 function Menu() {
 
 
@@ -10,15 +11,16 @@ function Menu() {
                     <img src={dreamLogo} alt="Dream" />
                 </div>
                 <nav>
-                    <a href="#">Domains</a>
-                    <a href="#">Hosting</a>
-                    <a href="#">WordPress</a>
-                    <a href="#">Email </a>
-                    <a href="#">Marketing Tools </a>
-                    <a href="#">Security</a>
-                    <a href="#">Transfer to Us </a>
-                    <a href="#">Help Center</a>
-                    <a href="#">Account</a>
+                    <NavLink to="/" className={({ isActive }) => (isActive ? 'active' : '')}>Home</NavLink>
+                    <NavLink to="/domains" className={({ isActive }) => (isActive ? 'active' : '')}>Domains</NavLink>
+                    <NavLink to="/hosting" className={({ isActive }) => (isActive ? 'active' : '')}>Hosting</NavLink>
+                    <NavLink to="/wordpress" className={({ isActive }) => (isActive ? 'active' : '')}>WordPress</NavLink>
+                    {/* <NavLink to="#">Email </NavLink>
+                    <NavLink to="#">Marketing Tools </NavLink>
+                    <NavLink to="#">Security</NavLink>
+                    <NavLink to="#">Transfer to Us </NavLink>
+                    <NavLink to="#">Help Center</NavLink>
+                    <NavLink to="#">Account</NavLink> */}
                 </nav>
             </div>
 
