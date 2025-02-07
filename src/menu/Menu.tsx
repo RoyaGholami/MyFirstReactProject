@@ -12,7 +12,7 @@ function Menu() {
                 </div>
                 <nav>
                     <NavLink to="/" className={({ isActive }) => (isActive ? 'active' : '')}>Home</NavLink>
-                    <NavLink to="/domains" className={({ isActive }) => (isActive ? 'active' : '')}>Domains</NavLink>
+                    <NavLink to="/products" className={({ isActive }) => (isActive ? 'active' : '')}>Products</NavLink>
                     <NavLink to="/hosting" className={({ isActive }) => (isActive ? 'active' : '')}>Hosting</NavLink>
                     <NavLink to="/wordpress" className={({ isActive }) => (isActive ? 'active' : '')}>WordPress</NavLink>
                     {/* <NavLink to="#">Email </NavLink>

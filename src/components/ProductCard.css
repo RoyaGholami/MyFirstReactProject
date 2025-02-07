@@ -1,0 +1,30 @@
+.product-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    display: flex;
+    gap: 15px;
+    border-radius: 8px;
+    text-align: start;
+    box-shadow: 4px 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+.product-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: fill;
+    border-radius: 8px;
+}
+
+.product-card .content {
+    flex: 1;
+    display: block;
+}
+
+.product-card p {
+    white-space: pre-line;
+    margin: 0;
+}
+
+.product-card h3 {
+    margin: 0;
+}

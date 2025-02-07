@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Domains from './pages/Domains';
+import ProductList from './pages/ProductList';
 import Layout from './layout/Layout';
 import Hosting from './pages/Hosting';
 import Wordpress from './pages/Wordpress';
@@ -11,7 +11,7 @@ function App() {
             <Layout>
                 <Routes>
                     <Route path="/" element={<Home />} />
-                    <Route path="/domains" element={<Domains />} />
+                    <Route path="/products" element={<ProductList />} />
                     <Route path="/hosting" element={<Hosting />} />
                     <Route path="/wordpress" element={<Wordpress />} />
                 </Routes>
